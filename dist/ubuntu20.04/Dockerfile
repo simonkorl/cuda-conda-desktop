@@ -1,6 +1,6 @@
-FROM nvidia/cuda:10.1-cudnn7-runtime-ubuntu16.04
-LABEL MAINTAINER="hangvane <hangvane1@gmail.com>"
-ARG RELEASE_NAME=xenial
+FROM ubuntu:20.04
+LABEL MAINTAINER="machuan <machuan0228@sina.com>"
+ARG RELEASE_NAME=focal
 ARG ROOT_PASSWD=123456
 ENV SSH_PORT 22
 ENV PATH /root/miniconda3/bin:$PATH
